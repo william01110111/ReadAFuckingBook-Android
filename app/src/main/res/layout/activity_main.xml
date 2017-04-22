@@ -22,10 +22,13 @@
         />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/book_open_page"
-        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/book_open_page_with_text"
+        android:id="@+id/imageView5"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
         android:scaleType="centerCrop"/>
 
 </RelativeLayout>
